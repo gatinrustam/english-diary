@@ -1,0 +1,26 @@
+.menu {
+  background-color: #703EDB;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 14px;
+  display: inline-block;
+}
+.menu__list {
+  padding: 7px 7px;
+}
+.menu__item {
+  list-style: none;
+  display: inline-block;
+  padding: 9px 16px;
+  margin-right: 5px;
+  border-radius: 9px;
+}
+.menu__item.active {
+  background-color: #4D2A99;
+}
+.menu__item:hover {
+  background-color: #4D2A99;
+}
+.menu__item:last-child {
+  margin-right: unset;
+}
