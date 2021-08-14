@@ -1,9 +1,13 @@
 .menu {
-  background-color: #703EDB;
+  background-color: rgb(50 25 105 / 60%);
   color: #ffffff;
   font-size: 20px;
   border-radius: 14px;
-  display: inline-block;
+  position: sticky;
+  top: 10px;
+  z-index: 99;
+  backdrop-filter: saturate(180%) blur(20px);
+  margin: auto;
 }
 .menu__list {
   padding: 7px 7px;
@@ -16,7 +20,7 @@
   border-radius: 9px;
 }
 .menu__item.active {
-  background-color: #4D2A99;
+  background-color: #47366b;
 }
 .menu__item:hover {
   background-color: #4D2A99;

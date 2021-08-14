@@ -1,9 +1,11 @@
 import React from 'react';
+import { Menu } from '../Menu/Menu';
 import './Content.css';
 
 export function Content() {
     return (
         <div className="content">
+            <Menu />
             <div className="intro">
                 <div className="intro__picture">
                     <img src="images/demo.png" alt="" />

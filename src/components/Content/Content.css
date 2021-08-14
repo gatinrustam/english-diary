@@ -1,6 +1,7 @@
 .content {
     margin: auto;
     width: 90%;
+    position: relative;
 }
 .content h2 {
     font-size: 1.7em;
