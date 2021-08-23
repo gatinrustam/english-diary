@@ -6,11 +6,13 @@
   position: sticky;
   top: 10px;
   z-index: 99;
-  backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(80%) blur(10px);
   margin: auto;
 }
 .menu__list {
   padding: 7px 7px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .menu__item {
   list-style: none;

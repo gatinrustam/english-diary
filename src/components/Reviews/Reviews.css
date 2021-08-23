@@ -1,0 +1,44 @@
+.reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -16px;
+    width: auto;
+}
+
+.reviews__item {
+    padding: 16px;
+    background-clip: padding-box;
+    margin-bottom: 24px;
+    border-radius: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.reviews__text {
+    margin: 16px;
+    font-weight: 400;
+}
+.reviews__text p {
+    margin-bottom: 1em;
+}
+.reviews__author {
+    margin: 16px;
+    font-weight: 600;
+}
+
+.reviews__item--purple {
+    background: #7a30e3;
+    color: #efe4ff;
+}
+.reviews__item--green {
+    background: #37bc9b;
+    color: #022f2b;
+}
+.reviews__item--yellow {
+    background: #ffc107;
+    color: #42340c;
+}
+.reviews__item--red {
+    background: #d83469;
+    color: #f9dfe7;
+}

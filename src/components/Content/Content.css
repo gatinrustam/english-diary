@@ -7,10 +7,6 @@
     font-size: 1.7em;
     margin-bottom: 1em;
 }
-.content p {
-    margin-bottom: 1em;
-}
-
 
 .intro {
     display: flex;
@@ -26,7 +22,30 @@
 .intro__text {
     width: 50%;
 }
+.intro__text p {
+    margin-bottom: 1em;
+}
 
+.block {
+    margin: 0 auto;
+}
+.block h2 {
+    text-align: center;
+}
+.block__content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block__picture {
+    width: 45%;
+}
+.block__picture img {
+    width: 100%;
+}
+.block__text {
+    width: 50%;
+}
 
 
 .blockquote {
@@ -35,6 +54,9 @@
     text-align: center;
     font-weight: 600;
     padding: 0 3em;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    margin: 4em 0 2em;
 }
 .blockquote::before {
     content: "";
