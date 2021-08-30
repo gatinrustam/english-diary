@@ -1,32 +1,32 @@
 .menu {
-  background-color: rgb(50 25 105 / 60%);
-  color: #ffffff;
-  font-size: 20px;
-  border-radius: 14px;
-  position: sticky;
-  top: 10px;
-  z-index: 99;
-  backdrop-filter: saturate(80%) blur(10px);
-  margin: auto;
+  font-size: 18px;
+  z-index: 19;
 }
 .menu__list {
   padding: 7px 7px;
-  display: flex;
-  justify-content: space-evenly;
 }
 .menu__item {
   list-style: none;
   display: inline-block;
-  padding: 9px 16px;
   margin-right: 5px;
-  border-radius: 9px;
-}
-.menu__item.active {
-  background-color: #47366b;
-}
-.menu__item:hover {
-  background-color: #4D2A99;
 }
 .menu__item:last-child {
   margin-right: unset;
+}
+
+.menu__item a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  padding: 6px 16px;
+  border-radius: 9px;
+}
+.menu__item a .active {
+  background-color: #47366b;
+  backdrop-filter: saturate(80%) blur(10px);
+}
+.menu__item a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4D2A99;
 }
