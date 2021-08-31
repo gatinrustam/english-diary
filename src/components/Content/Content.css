@@ -1,6 +1,6 @@
 .content {
     margin: auto;
-    width: 90%;
+    width: 100%;
     position: relative;
 }
 .content h2 {
@@ -60,6 +60,18 @@
     margin-bottom: 1em;
 }
 
+@media (max-width: 960px) {
+    .intro {
+        flex-wrap: wrap;
+    }
+    .intro__picture {
+        width: 100%;
+    }
+    .intro__text {
+        width: 100%;
+    }
+}
+
 .block {
     margin: 0 auto;
 }
@@ -113,7 +125,12 @@
     background-size: cover;
 }
 
-
+@media (max-width: 960px) {
+    .blockquote {
+        font-size: 1.3em;
+        padding: 0 2em;
+    }
+}
 .sertificates {
     width: 100%;
     display: flex;
@@ -147,6 +164,17 @@
 }
 .sertificates__item--05 {
     transform: rotate(-5deg);
+}
+
+@media (max-width: 960px) {
+    .sertificates {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .sertificates__item {
+        width: 30%;
+    }
 }
 
 .sertificates__block-green {
@@ -214,6 +242,7 @@
 .path {
     width: 100%;
     position: relative;
+    font-size: 0.7em;
 }
 
 .path img {
@@ -228,15 +257,15 @@
     z-index: 4;
 }
 .path__text--01 {
-    top: 13%;
+    top: 11%;
     left: 10%;
 }
 .path__text--02 {
-    top: 30%;
-    right: 19%;
+    top: 22%;
+    right: 24%;
 }
 .path__text--03 {
-    top: 55%;
+    top: 50%;
     left: 30%;
 }
 .path__text--04 {
